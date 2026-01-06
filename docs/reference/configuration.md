@@ -49,7 +49,7 @@ checkUpdates: true
 Default: `true`
  
 ::: info
-You can also disable the update check by setting the environment variable `MAFL_DISABLE_UPDATE_CHECK` to `true`.
+You can also disable the update check by setting the environment variable `DISABLE_UPDATE_CHECK` to `true`.
 :::
 
 ::: info Info

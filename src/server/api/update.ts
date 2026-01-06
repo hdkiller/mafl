@@ -62,7 +62,7 @@ export default defineEventHandler(async () => {
   const now = Date.now()
   const config = await getConfig()
 
-  if (env.MAFL_DISABLE_UPDATE_CHECK === 'true' || config?.checkUpdates === false) {
+  if (env.DISABLE_UPDATE_CHECK === 'true' || config?.checkUpdates === false) {
     return {
       available: false,
       version: CURRENT_VERSION,
